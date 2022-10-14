@@ -10,10 +10,10 @@ namespace homeWork___Math
     {
         static void Main(string[] args)
         {
-            int amountPicture = 52;
-            int pictureInRow = 3;
-            int numberOfRows = amountPicture / pictureInRow;
-            int picturesOutsideTheRow = amountPicture % pictureInRow;
+            int amountPictures = 52;
+            int picturesInRow = 3;
+            int numberOfRows = amountPictures / picturesInRow;
+            int picturesOutsideTheRow = amountPictures % picturesInRow;
 
             Console.WriteLine($"Колличество рядов заполеных картинками : {numberOfRows} \n" +
                 $"Колличество кортинок сверз меры: {picturesOutsideTheRow}");
